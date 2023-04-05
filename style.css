@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #193a8a;
+    color: white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayscore {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.matchid {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.content {
+    margin-top: 3rem;
+    max-width: 600px;
+    margin: 3rem auto;
+}
+
+.displayscore {
+    font-size: 1.8rem;
+
+}
+
+.result {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-bottom: 2px solid #193a8a;
+    border-radius: 8px;
+}
+
+.team1,
+.team2 {
+    font-weight: bold;
+}
+
+.scheduleIcon,
+.home {
+    font-size: 2rem;
+    color: white;
+}
+
+/* schedule css  */
+table {
+    margin-top: 70px;
+    max-width: 700px;
+    margin: 70px auto 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+ 
+    position: relative;
+    font-weight: bold;
+}
+
+tr{
+    border-bottom: 2px solid black;
+}
+
+td{
+    text-transform:uppercase ;
+}
+
+.logo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+    pointer-events: none;
+}
+
+.logo img{
+    width: 300px;
+    height: 300px;
+   
+}

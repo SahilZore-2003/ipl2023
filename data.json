@@ -1,0 +1,60 @@
+{
+   "matches":[
+     {
+        "match":"7",
+        "team1":"DC",
+        "team2":"GT",
+        "team1score":"162/8",
+        "team2score":"164/4",
+        "result":"GT win by 6 wickets"
+     },
+     {
+        "match":"6",
+        "team1":"CSK",
+        "team2":"LSG",
+        "team1score":"217/7",
+        "team2score":"205/7",
+        "result":"CSK win by 12 runs"
+     },
+     {
+      "match":"5",
+      "team1":"RCB",
+      "team2":"MI",
+      "team1score":"172/2",
+      "team2score":"171/7",
+      "result":"RCB win by 12 runs"
+   },
+   {
+      "match":"4",
+      "team1":"SRH",
+      "team2":"RR",
+      "team1score":"131/8",
+      "team2score":"203/5",
+      "result":"RR win by 72 runs"
+   },
+   {
+      "match":"3",
+      "team1":"DC",
+      "team2":"LSG",
+      "team1score":"143/9",
+      "team2score":"193/6",
+      "result":"LSG win by 50 runs"
+   },
+   {
+      "match":"2",
+      "team1":"PBKS",
+      "team2":"KKR",
+      "team1score":"191/5",
+      "team2score":"146/7",
+      "result":"PBKS wins by 7 runs (DLS)"
+   },
+   {
+      "match":"1",
+      "team1":"CSK",
+      "team2":"GT",
+      "team1score":"178/7",
+      "team2score":"182/5",
+      "result":"GT win by 5 wickets"
+   }
+   ]
+}
