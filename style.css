@@ -109,3 +109,16 @@ td{
     height: 300px;
    
 }
+
+
+#shareBtn{
+    position: fixed;
+    font-size: 2rem;
+    bottom: 15px;
+    right: 15px;
+    color: #fff;
+    padding: .5rem;
+    border: 2px solid #193a8a;
+    border-radius: 50%;
+    background-color: #193a8a;
+}
