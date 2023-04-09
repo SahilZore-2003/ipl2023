@@ -22,6 +22,8 @@ let displaydate = new Date()
 date.innerHTML = `${displaydate.getDate()}/${displaydate.getMonth()+1}/${displaydate.getFullYear()}`
 
 
+// api = https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0
+
 // fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0')
 // .then(res => res.json())
 // .then(data => {
