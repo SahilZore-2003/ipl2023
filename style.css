@@ -11,6 +11,21 @@
     text-align: center;
 }
 
+::-webkit-scrollbar{
+     width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: #193a8a;
+}
+
+
+
 nav {
     padding: 1rem;
     background-color: #193a8a;
