@@ -31,19 +31,19 @@ fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-
    live.innerHTML = `
    <div class="flex">
    <div class="team1">
-       <div class="teamlogo"><img src="${data.data[index].teamInfo[1].img}" alt="">
+       <div class="teamlogo"><img src="${data.data[index].teamInfo[0].img}" alt="">
        </div>
 
-       <div class="name">${data.data[index].teamInfo[1].shortname}</div>
+       <div class="name">${data.data[index].teamInfo[0].shortname}</div>
        <div class="score">${data.data[index].score[0].r}/${data.data[index].score[0].w}</div>
        <div class="overs">(${data.data[index].score[0].o})</div>
    </div>
    <div class="vs">VS</div>
    <div class="team2">
-       <div class="teamlogo"><img src="${data.data[index].teamInfo[0].img}" alt="">
+       <div class="teamlogo"><img src="${data.data[index].teamInfo[1].img}" alt="">
        </div>
 
-       <div class="name">${data.data[index].teamInfo[0].shortname}</div>
+       <div class="name">${data.data[index].teamInfo[1].shortname}</div>
        <div class="score">${data.data[index].score[1].r}/${data.data[index].score[1].w}</div>
        <div class="overs">(${data.data[index].score[1].o})</div>
    </div>
