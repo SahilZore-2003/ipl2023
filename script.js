@@ -2,7 +2,17 @@ const div = document.getElementById("content");
 const date = document.getElementById("date");
 const shareBtn =  document.getElementById("shareBtn");
 const live =  document.getElementById("live");
+const onoffstatus =  document.getElementById("onoffstatus");
 const index = 9;
+
+window.addEventListener('online',()=>{
+   onoffstatus.style.display = "none";
+})
+
+window.addEventListener('offline',()=>{
+  onoffstatus.style.display = "block";
+})
+
 
 window.addEventListener("load",()=>{
     document.getElementById('logo').style.display = 'none';

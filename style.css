@@ -150,3 +150,20 @@ td{
     font-weight: 500;
 }
 
+.onlineofflinestatus{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #193a8a;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+
+.onlineofflinestatus{
+    display: none;
+}
