@@ -1,6 +1,14 @@
 {
    "matches":[
       {
+         "match":"14",
+         "team1":"SRH",
+         "team2":"PBKS",
+         "team1score":"145/2",
+         "team2score":"143/9",
+         "result":"SRH win by 8 wickets"
+      },
+      {
          "match":"13",
          "team1":"KKR",
          "team2":"GT",
