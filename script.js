@@ -25,8 +25,7 @@ date.innerHTML = `${displaydate.getDate()}/${displaydate.getMonth()+1}/${display
 // api = https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0
 
 {/* line number 50
-<div class="score">${data.data[index].score[1].r}/${data.data[index].score[1].w}</div>
-       <div class="overs">(${data.data[index].score[1].o})</div>
+
        */}
 
 fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0')
@@ -49,7 +48,8 @@ fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-
        </div>
 
        <div class="name">${data.data[index].teamInfo[1].shortname}</div>
-       
+       <div class="score">${data.data[index].score[1].r}/${data.data[index].score[1].w}</div>
+       <div class="overs">(${data.data[index].score[1].o})</div>
        
 
    </div>
