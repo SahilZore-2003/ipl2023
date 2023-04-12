@@ -3,7 +3,7 @@ const date = document.getElementById("date");
 const shareBtn =  document.getElementById("shareBtn");
 const live =  document.getElementById("live");
 const onoffstatus =  document.getElementById("onoffstatus");
-const index = 4;
+const index = 2;
 
 window.addEventListener('online',()=>{
    onoffstatus.style.display = "none";
