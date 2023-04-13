@@ -3,7 +3,7 @@ const date = document.getElementById("date");
 const shareBtn =  document.getElementById("shareBtn");
 const live =  document.getElementById("live");
 const onoffstatus =  document.getElementById("onoffstatus");
-const index = 2;
+const index = 7;
 
 window.addEventListener('online',()=>{
    onoffstatus.style.display = "none";
@@ -25,38 +25,38 @@ date.innerHTML = `${displaydate.getDate()}/${displaydate.getMonth()+1}/${display
 // api = https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0
 
 {/* line number 50
-
+   <div class="score">${data.data[index].score[1].r}/${data.data[index].score[1].w}</div>
+       <div class="overs">(${data.data[index].score[1].o})</div>
        */}
 
-// fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0')
-// .then(res => res.json())
-// .then(data => {
-//    console.log(data);
-//    live.innerHTML = `
-//    <div class="flex">
-//    <div class="team1">
-//        <div class="teamlogo"><img src="${data.data[index].teamInfo[0].img}" alt="">
-//        </div>
+fetch('https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-1f0f9d00e146&offset=0')
+.then(res => res.json())
+.then(data => {
+   console.log(data);
+   live.innerHTML = `
+   <div class="flex">
+   <div class="team1">
+       <div class="teamlogo"><img src="${data.data[index].teamInfo[0].img}" alt="">
+       </div>
 
-//        <div class="name">${data.data[index].teamInfo[0].shortname}</div>
-//        <div class="score">${data.data[index].score[0].r}/${data.data[index].score[0].w}</div>
-//        <div class="overs">(${data.data[index].score[0].o})</div>
-//    </div>
-//    <div class="vs">VS</div>
-//    <div class="team2">
-//        <div class="teamlogo"><img src="${data.data[index].teamInfo[1].img}" alt="">
-//        </div>
+       <div class="name">${data.data[index].teamInfo[0].shortname}</div>
+       <div class="score">${data.data[index].score[0].r}/${data.data[index].score[0].w}</div>
+       <div class="overs">(${data.data[index].score[0].o})</div>
+   </div>
+   <div class="vs">VS</div>
+   <div class="team2">
+       <div class="teamlogo"><img src="${data.data[index].teamInfo[1].img}" alt="">
+       </div>
 
-//        <div class="name">${data.data[index].teamInfo[1].shortname}</div>
-//        <div class="score">${data.data[index].score[1].r}/${data.data[index].score[1].w}</div>
-//        <div class="overs">(${data.data[index].score[1].o})</div>
+       <div class="name">${data.data[index].teamInfo[1].shortname}</div>
+      
        
 
-//    </div>
-// </div>
-// <div class="result">${data.data[index].status}</div>
-//    `
-// })
+   </div>
+</div>
+<div class="result">${data.data[index].status}</div>
+   `
+})
 
 
 
