@@ -1,6 +1,14 @@
 {
    "matches":[
       {
+         "match":"18",
+         "team1":"GT",
+         "team2":"PBKS",
+         "team1score":"154/4",
+         "team2score":"153/8",
+         "result":"GT win by 6 wickets"
+      },
+      {
          "match":"17",
          "team1":"CSK",
          "team2":"RR",
