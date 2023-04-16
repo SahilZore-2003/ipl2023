@@ -1,6 +1,22 @@
 {
    "matches":[
       {
+         "match":"21",
+         "team1":"PBKS",
+         "team2":"LSG",
+         "team1score":"161/8",
+         "team2score":"159/8",
+         "result":"PBKS win by 2 wickets"
+      },
+      {
+         "match":"20",
+         "team1":"RCB",
+         "team2":"DC",
+         "team1score":"174/6",
+         "team2score":"151/9",
+         "result":"RCB win by 23 runs"
+      },
+      {
          "match":"19",
          "team1":"SRH",
          "team2":"KKR",
